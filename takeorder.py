@@ -9,10 +9,6 @@ MENU = {
     }
 
 
-
-
-#fullorder = [order for order in order_list]
-
 name = 'Restaurant'
 #Update: Took print statement out of function so that user doesn't get asked the question again if they aren't done with their order.
 print(f"Hello, welcome to {name}. What can I get you?")
@@ -29,7 +25,7 @@ def get_order():
             print("I'm sorry, we don't serve that")
             
         if is_order_complete():
-            #print(current_order)
+            #this will be a list
             return current_order
             
         else:
@@ -84,25 +80,6 @@ def output_order(order_list):
     
 
     
-    
-    
-    
-
-        
-    
-    #print(total)
-    #print(order_list)
-  
-
-
-  
-
-
-
-
-
-
-
 
 def main():
     order = get_order()
