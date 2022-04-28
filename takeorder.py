@@ -120,10 +120,10 @@ if __name__ == "__main__":
 
 
 
-'''
+
 
 '''
-#A program for taking orders.
+#A program for taking orders. Version 1.
 MENU = {"chicken", "steak", "mashed potatoes", "veggies", "rice"}
 
 
@@ -157,7 +157,7 @@ def output_order(order_list):
     for order in order_list:
         print(order)
 
-
+'''
 
 
 
